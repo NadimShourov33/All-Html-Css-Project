@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+$logo-fontfamily: 'Poppins', sans-serif;
+$logo-fontsize: 40px;
+$m10: 10px;
+$circle-radius: 50%;
+$cb-color: orange;
+$box-color: azure;
+$padding-sm : 10px;
+$padding-m: 20px;
+$padding-l : 30px;
+$bg-primary: #4551DD;
+$common-color: white;
+$heading-color: black;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: $logo-fontfamily;
+    align-items: center;
+
+    h1 {
+        font-size: $logo-fontsize;
+        margin-top: $m10;
+        color: #4551DD;
+
+    }
+
+    img {
+        margin-top: $m10;
+
+        top: 90px;
+        left: 320px;
+    }
+}
+
+// <!-- .................................part1................................... -->
+@media only screen and (max-width: 600px) {
+
+    .container {}
+
+    .part1 h1 {
+        display: none;
+
+    }
+
+    .part1 {
+        position: static;
+    }
+
+    .part1 div img {
+        position: static !important;
+        // display: none;
+        // top: 90px;
+        // left: 218px;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sec2boxmain {
+        flex-direction: column;
+        width: 80%;
+
+
+    }
+
+    .sec2boxmain .sec2box {
+        width: 100%;
+    }
+}
+
+
+
+.part1 {
+    background-color: $bg-primary;
+    height: 800px;
+    position: relative;
+
+    div img {
+        border-radius: $circle-radius;
+        position: absolute;
+        top: 90px;
+        left: 320px;
+    }
+
+    .circle-shap {
+        border-radius: $circle-radius;
+        background-color: $cb-color;
+        height: 50px;
+        width: 50px;
+    }
+
+    .box-main {
+        display: flex;
+
+        width: 60%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: absolute;
+        top: 390px;
+        left: 550px;
+    }
+
+    h1 {
+        font-size: $logo-fontsize;
+        background-color: $bg-primary;
+        color: $common-color;
+        text-align: center;
+        width: 40%;
+        text-align: center;
+        padding: $padding-m;
+        top: 270px;
+        left: 550px;
+        position: absolute;
+        border-radius: 20px;
+
+        
+
+    }
+
+    .box {
+        background-color: $box-color;
+        padding: $padding-l;
+        border-radius: 10px;
+        width: 25%;
+        margin-bottom: $m10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: $m10;
+        margin-left: $m10;
+
+        h2 {
+            margin-top: $m10;
+            background-color: $box-color;
+            color: $heading-color;
+            font-size: 20px;
+
+        }
+    }
+
+    // <!-- .................................part2................................... -->
+    .part2 {
+        background-color: $bg-primary;
+
+    }
+
+    h1 {
+        color: $common-color;
+        font-size: $logo-fontsize;
+        text-align: center;
+        margin-bottom: $m10;
+    }
+
+    h3 {
+        color: $common-color;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    .sec2boxmain {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        margin: auto;
+    }
+
+
+    .sec2box {
+        width: 25%;
+        background-color: $box-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: $padding-sm;
+        border-radius: $m10;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+        img {
+            width: 90%;
+            height: 300px;
+            border-radius: $m10;
+            margin-top: $m10;
+        }
+
+        h2 {
+            margin-top: $m10 ;
+        }
+
+        p {
+            margin-top: $m10 ;
+        }
+    }
+
+    // <!-- .................................part3................................... -->
+
+    .part3main {
+        background-color: $bg-primary;
+        position: relative;
+        height: 1000px;
+
+        h1 {
+            font-size: $logo-fontsize;
+            font-family: $logo-fontfamily;
+            color: $common-color;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h5 {
+            color: $common-color;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    }
+
+
+
+    .part3box-main {
+        display: flex;
+
+        width: 70%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        position: absolute;
+        top: 235px;
+        left: 215px;
+
+    }
+
+
+
+
+    .part3box {
+        width: 25%;
+        background-color: $box-color;
+        padding: $padding-m;
+        margin-top: $m10;
+        margin-bottom: $m10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+
+        h1 {
+            color: $bg-primary;
+            font-size: 20px;
+        }
+
+        p {
+            opacity: 0.8;
+        }
+
+        span {
+            display: block;
+            color: $heading-color;
+            margin-left: 90%;
+            font-size: 40px;
+            color: $bg-primary;
+        }
+
+    }
+
+    .box-shape {
+        width: 100%;
+        height: 300px;
+        background-color: orange;
+        position: absolute;
+        top: 350px;
+
+
+
+    }
+
+    // <!-- .................................part4................................... -->
+    .sec4 {
+        display: flex;
+        justify-content: space-evenly;
+        padding: $m10;
+        background-color: $bg-primary;
+    }
+
+
+
+
+    .sec4half {
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        justify-content: space-evenly;
+        background-color: $bg-primary;
+    }
+
+    .sec4cot {
+        width: 45%;
+
+        h1 {
+            font-size: 70px;
+            color: $common-color;
+
+        }
+
+        h5 {
+            color: $common-color;
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+
+    .sec4full {
+        background-color: $bg-primary;
+        width: 45%;
+
+        h3 {
+            color: $common-color;
+            font-size: $logo-fontsize;
+            margin-top: 30px;
+
+        }
+
+        h5 {
+            color: $common-color;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        div button {
+            width: 225px;
+            height: 65px;
+            background-color: $cb-color;
+            color: $bg-primary;
+            border-radius: 30px;
+            display: block;
+            margin: auto;
+        }
+    }

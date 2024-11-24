@@ -1,0 +1,386 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 90%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+  background-color: #F8F9FA;
+  
+}
+
+   /* ...............................sec-1............................................. */
+   .section1{
+    background-image: url(https://preview.colorlib.com/theme/hotell/images/img_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+nav div ul{
+    list-style: none;
+   
+}
+nav div ul li{
+  display: inline;
+ 
+   
+}
+nav div ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 4px;
+    font-weight: bolder;
+}
+.mobile-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.mobile-icon p{
+    margin-left: 20px;
+}
+.nav-headline{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.sec1-btn{
+width: 15%;
+background-color: #00917C;
+color: aliceblue;
+padding: 0.5%;
+text-align: center;
+border-radius: 30px;
+display: block;
+margin-bottom: 30px;
+margin: auto;
+border: 0;
+background: linear-gradient(to  bottom left, red 50%, rgb(56, 56, 90) 50%);
+background-size: 300% 200%;
+background-position:  bottom left;
+transition: 1s;
+}
+.sec1-btn:hover{
+background-position: top right;
+}
+   /* ...............................sec-2............................................. */
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F8F9FA;
+    width: 80%;
+    margin: auto;
+    margin-top: -50px;
+    padding: 20px;
+    animation-name: nadim;
+    animation-iteration-count: 4;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    color: #fffefe;
+   background-color: #2073c5;
+   padding: 10px;
+   border-radius: 20px;
+   font-size: 10px;
+}
+ /* ...............................sec-3............................................. */
+ .sec3-card-main{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+ }
+ .sec3-card{
+  width: 30%;
+  box-shadow: 5px 5px 5px  rgb(171, 169, 169);
+  padding : 20px;
+  background: linear-gradient(to   top left, rgb(56, 93, 228) 50%, rgb(255, 255, 255) 50%);
+  background-size: 400% 200%;
+  background-position:   top left;
+  transition: 3s;
+  }
+  .sec3-card:hover{
+  background-position:  bottom right;
+  color: white;
+  }
+
+
+
+ .sec3-card i{
+  font-size: 3rem;
+  color: #00917C;
+ }
+ .sec3-card h1{
+  font-size: 1.5rem;
+  color: #060606;
+ }
+ .sec3-card p{
+  opacity: 0.8;
+ }
+ .sec3-card p a{
+  margin-top: 40px;
+  text-decoration: none;
+  color: #676363;
+ }
+  /* ...............................sec-4............................................. */
+  
+  .section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  
+  }
+  
+  .SEC4-P1{
+     display: flex;
+     width: 50%;
+  }
+  .SEC4-P1-box{
+   width: 300px;
+   height: 500px;
+   background-color: #00917C;
+ }
+ .SEC4-P1-img{
+  width: 100%;
+  height: 300px;
+  margin-left: -70px;
+  margin-top: 100px;
+
+ }
+ .section4-text{
+  width: 50%;
+ }
+ /* ...............................sec-5............................................. */
+ .section5{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: -80px;
+ }
+ 
+ .sec5-card{
+  width: 30%;
+  overflow: hidden;
+ }
+ .sec5-card img{
+  transition: 3s;
+ }
+ .sec5-card img:hover{
+  transform: scale(1.2);
+ }
+  /* ...............................sec-5............................................. */
+ .section6{
+  display: flex;
+  justify-content: space-between;
+  background-color: #00917C;
+  align-items: center;
+  padding: 200px;
+ }
+ .sec-title{
+  width: 30%;
+ }
+ .sec-drop{
+  width: 60%;
+ }
+ .sec-hr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ hr{
+  background-color: #060606;
+ }
+ .sec-7-card-main{
+  display: flex;
+  justify-content: space-between;
+ }
+ .sec-7-card{
+  width: 30%;
+  padding: 30px;
+  box-shadow: 5px 5px 5px  rgb(171, 169, 169);
+ background: linear-gradient(to   bottom right, rgb(142, 23, 114) 50%, rgb(255, 255, 255) 50%);
+ background-size: 400% 200%;
+ background-position: bottom right ;
+ transition: 3s;
+ position: relative;
+ margin-top: 50px;
+ }
+ .sec-7-card:hover{
+ background-position:  top left ;
+ color: rgb(255, 255, 255);
+ }
+ footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin-top: 30px;
+ }
+ footer div p{
+  opacity: 0.9;
+ }
+ footer div i {
+  margin-left: 20px;
+ }
+@keyframes nadim{
+        0%{
+          transform: translatey(100px);
+        }
+        100%{
+            transform:translatey(0px) ;
+    }
+}
+@keyframes nadim1{
+  0%{
+    transform: translatex(-200px);
+  }
+  100%{
+      transform:translatey(0px) ;
+}
+}
+@keyframes nadim3{
+  0%{
+    transform: translatex(200px);
+  }
+  100%{
+      transform:translatey(0px) ;
+}
+}
+.animation1{
+  animation-name: nadim1;
+    animation-iteration-count: 4;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+}
+.animation3{
+  animation-name: nadim3;
+    animation-iteration-count: 4;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+ /* ......................media qurey......................... */
+@media only screen and (max-width: 600px){
+  /* .section1{
+    height: 100vh;
+  } */
+
+  .section1  nav {
+    flex-direction: column;
+    /* display: none; */
+  }
+  .section1  nav div h1{
+      font-size: 1rem;
+  }
+  .sec1-btn{
+    width: 40%;
+  }
+  nav div ul li a{
+      display: block;
+    background-color: #00917C;
+    width: 100%;
+    text-align: center;
+    color: white;
+       
+    }
+    nav div ul li{
+      background-color: #00917C;
+      display: inline-block;
+      width: 100%;
+      margin-top: 20px;
+      padding: 20px;
+    }
+    nav div ul{
+      padding-left: 0px;
+    }
+    .section2{
+      flex-direction: column;
+      width: 100%;
+      margin-top: 0px;
+    }
+    .section2 .card{
+      width: 100%;
+      color: white;
+      margin-top: 10px;
+      border-radius: 0px;
+      background-color: #00917C;
+    }
+    .sec3-card-main{
+      flex-direction: column;
+     }
+     .sec3-card{
+      width: 100%;
+      box-shadow: 5px 5px 5px  rgb(171, 169, 169);
+      padding : 20px;
+     }
+     .section4{
+      flex-direction: column;
+      justify-content: left;
+     }
+     .SEC4-P1{
+      width: 100%;
+     }
+     .SEC4-P1-img{
+      width: 100%;
+     }
+     .section5{
+      flex-direction: column;
+     }
+     .sec5-card{
+      width: 100%;
+     }
+     .section6{
+      flex-direction: column;
+      padding: 100px;
+      margin-top: 60px;
+      color: white;
+     }
+     .sec-title{
+      width: 1005;
+     }
+     .sec-drop{
+      width: 100%;
+      color: white;
+     }
+     .sec-7-card-main{
+     flex-direction: column;
+     }
+     .sec-7-card{
+      width: 100%;
+     }
+     footer{
+      flex-direction: column;
+      font-size: 1.5rem
+     }
+}

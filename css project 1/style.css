@@ -1,0 +1,741 @@
+.container {
+    width: 90%;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* .........................nav-part.................... */
+nav {
+    background-color: rgb(216, 216, 227);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@keyframes fornavh1 {
+    from {
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        color: blue;
+    }
+}
+
+
+
+nav h1 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: black;
+    margin: 20px;
+    margin-top: 30px;
+    animation-name: fornavh1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+nav img {
+    margin-right: 10px;
+    margin-top: 15px;
+    margin: 20px;
+
+}
+
+
+
+
+/* .........................npart-1.................... */
+
+main {
+    width: 80%;
+    display: flex;
+    background-color: #769A5A;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+.part1imgpart {
+    /* background-color: rgb(232, 240, 240); */
+    width: 50%;
+    /* height: 700px; */
+
+
+}
+
+.imgposition {
+    position: relative;
+    top: 20px;
+
+}
+
+@keyframes forcircleshap {
+    0% {
+        height: 500px;
+        width: 500px;
+        background-color: aqua;
+    }
+
+    50% {
+        height: 400px;
+        width: 400px;
+        background-color: bisque;
+    }
+
+    75% {
+        height: 500px;
+        width: 500px;
+        background-color: rgb(172, 232, 7);
+    }
+
+    100% {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(231, 25, 6);
+    }
+
+}
+
+
+
+
+
+
+.circle-shap {
+    height: 400px;
+    width: 400px;
+    background-color: #D09630;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    animation-name: forcircleshap;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+
+
+}
+
+@keyframes forimg {
+    from {}
+
+    to {
+        transform: rotate(45deg);
+    }
+}
+
+
+
+
+.part1img {
+    position: absolute;
+    left: 60px;
+    /* animation-name: forimg;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+
+}
+
+@keyframes part1text {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+
+
+
+
+
+.part1textpart {
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 70px;
+    text-align: center;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: part1text;
+}
+
+.part1textpart h1 {
+    font-size: 60px;
+    line-height: 70px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 5%;
+
+}
+
+.part1textpart h2 {
+    font-size: 26px;
+    line-height: 70px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.part1textpart h4 {
+    font-size: 20px;
+    line-height: 20px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 5%;
+
+}
+
+.button1 {
+    background-color: aliceblue;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px; */
+    height: 60px;
+    width: 235px;
+    border-radius: 20px;
+    color: #769A5A;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 5%;
+    /* display: flex;
+justify-content: center;
+align-items: center; */
+
+}
+
+.button1:hover {
+    background-color: #769A5A;
+    border: 3px solid white;
+    color: black;
+}
+
+/* .........................part-2.................... */
+
+@keyframes clip1 {
+    0% {
+        top: 0px
+    }
+
+    50% {
+        top: 50px
+    }
+
+    100% {
+        top: 0px
+    }
+}
+
+
+
+
+
+.clip1 {
+    border: 2px solid white;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    animation-name: clip1;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.clip1 h1 {
+    margin-bottom: 30px;
+}
+
+.part2main {
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    height: 500px;
+
+
+
+}
+
+.part2main h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.part2main h5 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: #696971;
+}
+
+.clipmain {
+    display: flex;
+    justify-content: space-evenly;
+    color: #696971;
+    width: 80%;
+    margin: auto;
+}
+
+/* .........................part-3.................... */
+.part3main {
+    width: 100%;
+    height: 900px;
+    background-color: #769A5A;
+    position: relative;
+}
+
+@keyframes part3circle {
+    from {
+        height: 0px;
+        width: 0px;
+
+    }
+
+    to {
+        height: 300px;
+        width: 300px;
+
+    }
+}
+
+
+.part3circle1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 60px;
+    left: 923px;
+    animation-name: part3circle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.part3circle2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(236, 102, 20);
+    position: absolute;
+    top: 570px;
+    left: 100px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: part3circle;
+}
+
+@keyframes part3square1 {
+    from {
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+       
+    }
+}
+
+.part3square1 {
+    height: 250px;
+    width: 600px;
+    background-color: #D09630;
+    position: absolute;
+    top: 530px;
+    left: 650px;
+    animation-name: part3square1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes squaretext {
+    from {
+        transform: scaleY(0);
+    }
+
+    to {
+        transform: scaleY(1.5);
+
+
+    }
+}
+
+
+.part3squaretext {
+    background-color: aliceblue;
+    height: 350px;
+    width: 300px;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 780px;
+    top: 150px;
+    animation-name: squaretext;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.part3squaretext h1 {
+    margin-bottom: 20px;
+}
+
+.button2 {
+    background-color: #769A5A;
+    ;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.button2:hover {
+    background-color: #124ace;
+    border: 3px solid white;
+    color: aliceblue;
+
+}
+
+
+/* .........................part-4.................... */
+.part4main {
+    background-image: url(https://images03.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/bf2f811a4079513c83f487bf/pexels-photo-2409038.jpeg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes part4boxmodel {
+    from {
+        transform: scaleY(0);
+    }
+
+    to {
+        transform: scaleY(1.5);
+
+
+    }
+}
+
+.part4boxmodel {
+    background-color: whitesmoke;
+    padding: 40px;
+    width: 45%;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    margin: auto;
+    animation-name: part4boxmodel;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+.part4boxmodel h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.part4boxmodel p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #696971;
+}
+
+input {
+    color: black;
+
+}
+
+.part4boxmodel input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+.part4boxmodel input::placeholder {
+    color: #696971;
+}
+
+.button3 {
+    height: 40px;
+    width: 130px;
+    background-color: #769A5A;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+/* .........................part-5.................... */
+.part5main {
+    width: 100%;
+    background-color: #769A5A;
+    height: 500px;
+   
+   
+}
+
+
+.part5boxmodel {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+  
+
+}
+ 
+.part5boxmodel h1{
+font-size: 25px;
+margin-bottom: 20px;
+
+
+    }
+
+
+
+
+
+ .p5b1 {
+    width: 22%;
+    background-color: rgb(253, 253, 253);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    animation-name: clip1;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+.p5b2 {
+    width: 22%;
+    background-color: rgb(231, 160, 9);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    color: aliceblue;
+    animation-name: clip1;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.p5b3 {
+    width: 22%;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    animation-name: clip1;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.part5boxmodel span{
+    margin-right: 5px;
+}
+<!-- /* .........................part-6.................... */ -->
+
+.part6main{
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/4cd3e4ff21f6507a9779f4ee/1394453e-a213-c6d5-6271-8bea97f28e15.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+.part6main h1,.part6main h5, .part6main h3,.part6main div{
+    padding: 10px;
+    padding-left: 60px;
+
+}
+.part6main h1{
+    padding-top: 30px;
+}
+.part6main h3 span{
+    padding-right: 5px;
+}
+.button4{
+    height: 60px;
+    width: 240px;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+<!-- /* .........................part-7.................... */ -->
+.section7main{
+background-color: #769A5A;
+width: 100%;
+height: 900px;
+position: relative;
+}
+.part7circle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #D09630;
+    position: absolute;
+    top: 75px;
+    left: 530px;
+    animation-name: part3circle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  
+}
+.part7textsquare{
+    background-color: aliceblue;
+    line-height: 35px;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 225px;
+    left: 860px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: clip1;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+<!-- /* .........................part-8.................... */ -->
+.part8main{
+    width: 100%;
+    background-color: black;
+    color:  white;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    
+}
+.part8textcontent{
+width: 60%;
+}
+.part8circleshap{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+background-color: #D09630;
+margin-right: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+margin-left: 30px;
+
+}
+
+@keyframes part8p{
+    0%{
+      font-size: 0px;
+    }
+   
+    
+  
+    100%{
+        font-size: 15px;
+        color: #D09630;
+    }
+}
+
+
+
+.part8circleandtext p{
+animation-name: part8p;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+}
+
+
+
+.part8circleandtext{
+display: flex;
+align-items: center;
+margin-top: 30px;
+
+}
+.part8circleandtext p{
+    width: 50%
+}
+
+@keyframes part8img{
+    0%{
+        left: 0px
+    }
+   
+    50%{
+        right: 100px
+    }
+  
+    100%{
+        right: 0px
+    }
+}
+
+

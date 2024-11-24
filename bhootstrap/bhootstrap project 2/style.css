@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+
+
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.card-transform{
+    transition: 4s;
+ 
+}
+.card-transform:hover{
+    transform: scale(1.2);
+}
+.background-image{
+    background-image: url("http://veritodemo3.magikthemes.com/catalog/view/theme/verito/image/deals-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-attachment: fixed;
+}

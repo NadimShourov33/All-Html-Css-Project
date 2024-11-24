@@ -1,0 +1,121 @@
+nav{
+    background-color: #3AA6B9;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    color: aliceblue;
+}
+.mainpart{
+    width: 90%;
+    margin: auto;
+}
+/* <!-- .............................part1................................. --> */
+.part1main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.part1textpart{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+}
+.part1imgpart{
+    width: 50%;
+}
+.button{
+    width: 90%;
+    background-color:#FF6666 ;
+    padding: 20px;
+    /* margin-left: 50%; */
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
+    box-shadow: 0 0 4px;
+    border-radius: 30px;
+}
+span{
+    color: #FF6666;
+    font-size: 30px;
+    
+}
+.img{
+    width: 100%;
+    height: 600px;
+}
+/* <!-- .............................part3................................. --> */
+.part3main{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+}
+.part3maintext{
+width:50%;
+line-height: 50px;
+font-size: 20px;
+}
+.part3input{
+width: 50%;
+font-size: 20px;
+line-height: 30px;margin-left: 20px;
+padding: 5px;
+}
+/* <!-- .............................part4................................. --> */
+#part4section{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+text-align: center;
+}
+#part4main h1{
+   padding-top: 20px;
+   font-size: 50px;
+}
+#part4main{
+width: 100%;
+background-color: #3AA6B9;
+color: aliceblue;
+}
+.button7{
+    background-color: #3AA6B9; 
+    color: aliceblue; 
+   width: 50%; 
+   padding: 15px;
+   border-radius: 30px;
+   margin-left:25%;
+   margin-top: 30px;
+  
+}
+#mainpart2{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    box-shadow: black 0 0 3px;
+    position: absolute;
+    right: 0;
+    right: 5%;
+    
+   
+}
+#section{
+    position: relative;
+}
+#sectionmain{
+    width: 90%;
+    margin: auto;
+    padding: 60px;
+}
+#mainpart{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    box-shadow: black 0 0 3px;
+    position: absolute;
+    left: 0;
+    left: 5%;}

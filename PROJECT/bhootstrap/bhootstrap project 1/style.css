@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:100% !important;
+}
+
+
+.part1{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/1966444/images/6654e6-min.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+ 
+    font-family: 'Poppins', sans-serif;
+}
+.part1 h1{
+    font-size: 3rem;
+}
+.part2{
+padding-top: 100px;
+animation-name: updown;
+animation-iteration-count: 4;
+animation-delay: 2s;
+animation-duration: 4s;
+animation-timing-function: ease-out;
+}
+.part2 h1{
+    font-size: 25px;
+    text-align: center;
+}
+.part2 p{
+    text-align: center;
+}
+.part3{
+    text-align: center;
+}
+.card{
+   
+ text-align: center;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ padding: 10px;
+
+ /* height: 300px; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+ 
+}
+
+.card h1{
+    font-size: 25px;
+    color: rgb(108, 156, 108);
+  
+}
+.card img{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin: auto;
+}
+.part5{
+    background-color: #537459;
+}
+.part5main{
+
+}
+.part5text{
+
+}
+/* @media only screen and (max-width: 600px) {
+    .part5main{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .part5text {
+  width: 100% !important ;
+  display: flex;
+  align-items: center;
+
+       
+    }
+   
+} */
+.part7{
+ 
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/1966444/images/Untitled-2t-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+}
+.margin-top{
+    margin-top: 100px;
+}
+@keyframes img{
+    0%{
+      transform: scale(0);
+    }
+    100%{
+        transform: scale(1);}
+}
+@keyframes updown{
+    0%{
+      transform: translateY(-100px);
+    }
+    100%{
+        transform:translateY(0px) ;}
+}
+@keyframes updown2{
+    0%{
+      transform: translateY(500px);
+    }
+    100%{
+        transform:translateY(0px) ;}
+}
+@keyframes updown1{
+    0%{
+      transform: translatex(-500px);
+    }
+    100%{
+        transform:translatex(0px) ;}
+}
+@keyframes updown4{
+    0%{
+      transform: scale(0);
+    }
+    100%{
+        transform:  scale(1) rotate(360deg);  }
+}
+.n-m-s{
+animation-name: img;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-fill-mode: forwards;
+
+}
+.section5animaition{
+    animation-name: updown1;
+    animation-iteration-count: 4;
+  
+    animation-duration: 4s;
+    animation-timing-function: ;
+    animation-fill-mode: both;
+}
+.cardanimation{
+    animation-name: updown;
+    animation-iteration-count: 4;
+
+animation-duration: 4s;
+animation-timing-function: ease-out;
+}
+.whatwedo{
+    animation-name: updown1;
+    animation-iteration-count: 4;
+  
+    animation-duration: 4s;
+    animation-timing-function: liner;
+    
+}
+
+.nadimanimation{
+    animation-name: updown2;
+    animation-iteration-count: 4;
+    animation-duration: 1s;
+}
+.part10{
+font-size: 15px;
+}
+.part10 h3{
+font-size: 18px;
+}
+
+
+.animation{
+    animation-name: updown4;
+    animation-iteration-count: 4;
+    animation-duration: 1s;
+}
+@keyframes formanimation{
+    0%{
+      transform: translateX(-400px)
+    }
+    100%{
+        transform:   translateX(0px) }
+}
+@keyframes formanimation1{
+    0%{
+      transform: translateX(+400px)
+    }
+    100%{
+        transform:   translateX(0px) }
+}
+
+.formimganiamtion{
+    animation-name: formanimation;
+    animation-iteration-count: 4;
+    animation-duration: 1s;
+}
+.formimganiamtion1{
+    animation-name: formanimation1;
+    animation-iteration-count: 4;
+    animation-duration: 1s;
+}
+.section1animation{
+    animation-name: img;
+    animation-iteration-count: 4;
+    animation-duration: 1s;
+}
+@keyframes card-animation{
+    0%{
+      transform: translatey(-400px)
+    }
+    100%{
+        transform:   translateX(0px) }
+}
+.card-animation1{
+    animation-name: card-animation;
+    /* animation-iteration-count: 4; */
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+#card-animation1:nth-child(1){
+    animation-delay: 0.1s;
+    background-color: blue;
+}
+.card-animation1:nth-child(2){
+    animation-delay: 0.2s;
+}
+.card-animation1:nth-child(3){
+    animation-delay: 0.3s;
+}
+.card-animation1:nth-child(4){
+    animation-delay: 0.4s;
+}
+.card-animation1{
+
+}
